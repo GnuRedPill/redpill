@@ -1,0 +1,19 @@
+{
+    "name": "redpill",
+    "description": "AI is watching you",
+    "version": "1.0",
+    "manifest_version": 3,
+    "host_permissions": [
+        "http://127.0.0.1:8080/*"
+      ],
+    "content_scripts": [
+        {
+          "matches": [
+            "*://*/*"
+          ],
+          "all_frames": true,
+          "js": ["content-script.js"]
+        }
+      ]
+
+  }

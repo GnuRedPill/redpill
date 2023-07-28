@@ -1,0 +1,4 @@
+cgi-bin/
+files/*.png
+files/*.gif
+files/*.jpeg
